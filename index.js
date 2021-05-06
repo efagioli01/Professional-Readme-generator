@@ -12,26 +12,65 @@ const questions = [
       type: 'input',
       name: 'title',
       message: 'What is the title of your project?',
+      validate: titleInput => {
+        if (titleInput) {
+          return true;
+        } else {
+          console.log('Please enter a title for your project to continue');
+          return false
+        }
+      }
     },
     {
       type: 'input',
       name: 'description',
       message: 'Briefly describe this project',
+      validate: descriptionInput => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log('Please enter a description for your project to continue')
+        } return false
+      }
     },
     {
       type: 'input',
       name: 'installation',
       message: 'List the steps required to install your project',
+      validate: installationInput => {
+        if (installationInput) {
+          return true;
+        } else {
+          console.log('Please enter installation info to continue')
+        } return false
+          
+      }
     },
     {
         type: 'input',
         name: 'use',
         message: 'What is the use of this application?',
+        validate: useInput => {
+          if (useInput) {
+            return true;
+          } else {
+            console.log('Please enter a use to continue')
+          } return false
+            
+        }
       },
       {
         type: 'input',
         name: 'credits',
-        message: 'Were there any contrubutors to your project?',
+        message: 'Were there any contributors to your project?',
+        validate: creditsInput => {
+          if (creditsInput) {
+            return true;
+          } else {
+            console.log('Please enter credits to continue')
+          } return false
+            
+        }
       },
       {
         type: 'checkbox',
@@ -49,11 +88,28 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'Enter your email address',
+        validate: emailInput => {
+          if (emailInput) {
+            return true;
+          } else {
+            console.log('Please enter email to continue')
+          } return false
+            
+        }
+        
       },
       {
         type: 'input',
         name: 'github',
         message: 'Enter your github username',
+        validate: githubInput => {
+          if (githubInput) {
+            return true;
+          } else {
+            console.log('Please enter github to continue')
+          } return false
+            
+        }
       },
 
     ];

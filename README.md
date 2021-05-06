@@ -1,9 +1,9 @@
-# ef
+# Professional README.md generator
 ![Github license](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
 
-ef
+The clickable video above shows a demonstration on how the application works. 
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ ef
 
 ## Installation
 to install dependancies run the follow command
-ef
+downlad it 
 
 ## License
     
@@ -27,19 +27,19 @@ ef
 
 ## Use
 
-ef
+fg
 
 ## Credits
 
-ef
+erica fagioli
 
 ## Email
 
-ef@ef
+efagioli01@gmail.com
 
 ## Github
 
-githubef
+https://github.com/efagioli01
 
 
 
