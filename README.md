@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Professional README.md generator
 ![Github license](https://img.shields.io/badge/License-MIT-blue.svg)
 
@@ -41,5 +42,7 @@ efagioli01@gmail.com
 
 https://github.com/efagioli01
 
+=======
+>>>>>>> 984aa9ef3a4d5d975badb8642d6ce51987579bc4
 
 
