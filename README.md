@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-# Professional README.md generator
-![Github license](https://img.shields.io/badge/License-MIT-blue.svg)
+# gfdgfdg
+![Github license](https://img.shields.io/badge/License-APACHE 2.0-blue.svg)
 
 ## Description
 
-The clickable video above shows a demonstration on how the application works. 
+fgfgfdh
 
 ## Table of Contents
 
@@ -20,29 +19,27 @@ The clickable video above shows a demonstration on how the application works.
 
 ## Installation
 to install dependancies run the follow command
-downlad it 
+hfdhghghj
 
 ## License
     
-    This project is licensed under MIT license
+    This project is licensed under APACHE 2.0 license
 
 ## Use
 
-fg
+fhghfhgj
 
 ## Credits
 
-erica fagioli
+fhdhggdjzdgj
 
 ## Email
 
-efagioli01@gmail.com
+gdrfgdd
 
 ## Github
 
-https://github.com/efagioli01
+gfdhgffj
 
-=======
->>>>>>> 984aa9ef3a4d5d975badb8642d6ce51987579bc4
 
 
