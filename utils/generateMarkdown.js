@@ -54,7 +54,7 @@ ${data.installation}
 
 ${renderLicenseSection(data.license)}
 
-## Use
+## Useage
 
 ${data.use}
 

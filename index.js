@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const { prompt } = require('inquirer');
 const fs = require('fs');
-const path = require('path') //owrks with fs, path is telling where files are or should go
+const path = require('path') //works with fs, path is telling where files are or should go
 const generateMarkDown = require('./utils/generateMarkdown')
 
 
@@ -49,12 +49,12 @@ const questions = [
     {
         type: 'input',
         name: 'use',
-        message: 'What is the use of this application?',
+        message: 'What is the useage of this application?',
         validate: useInput => {
           if (useInput) {
             return true;
           } else {
-            console.log('Please enter a use to continue')
+            console.log('Please enter usage to continue')
           } return false
             
         }
@@ -118,7 +118,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  return fs.writeFileSync(path.join(process.cwd(), fileName), data) //method 
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data) 
 }
 
 // TODO: Create a function to initialize app
@@ -126,7 +126,7 @@ function init() {
   prompt(questions).then(responses => {
     console.log(responses)
     console.log('generating readme...')
-    writeToFile('README.md', generateMarkDown({ ...responses })) //.. turns to ittrable array
+    writeToFile('READMEOUT.md', generateMarkDown({ ...responses })) //.. turns to ittrable array
   })
 }
 
