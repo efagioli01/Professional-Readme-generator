@@ -2,7 +2,7 @@
 
 ## Assignemnt
 
-For the tenth homework assignment in week ten of UNH Full-Stack Coding Bootcamp I was to build a professionl README.md generator with requiring inquirer 
+For the tenth homework assignment in week ten of UNH Full-Stack Coding Bootcamp I was to build a professionl README.md generator requiring inquirer 
 
 ## The User Story
 
@@ -10,6 +10,7 @@ For the tenth homework assignment in week ten of UNH Full-Stack Coding Bootcamp 
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
+
 
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
@@ -31,7 +32,16 @@ THEN I am taken to the corresponding section of the README
 
 ## Description
 
-test
+A node.js appliation that gathers user input from inquirer to geneerate a professional README.md file for a users respository. The README.md file that is created is named READMEOUT.md and is generated when in the index.js file node index.js is ran in the integated termial, there the user is prompted to answer set questions, if the user skips a section they are redirected to enter input before moving on
+
+
+
+## Installation
+
+npm init
+
+npm install inquirer
+
 
 ## Built with
 
@@ -45,8 +55,37 @@ test
 * [Deployed Application]()
 
 
-## Screenshot 
+## Video of demo 
  ![screenshot](./images/apisnip1.PNG)
+
+
+
+ ## MIT License
+
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+
+Copyright (c) 2021 Erica F
  
 
 
