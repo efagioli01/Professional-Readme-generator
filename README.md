@@ -51,12 +51,12 @@ npm install inquirer
 
 ## Links
 
-* [GitHub Repository]()
-* [Deployed Application]()
+* [GitHub Repository](https://github.com/efagioli01/Professional-Readme-generator)
+
 
 
 ## Video of demo 
- ![screenshot](./images/apisnip1.PNG)
+ 
 
 
 
