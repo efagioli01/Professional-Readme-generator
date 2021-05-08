@@ -1,4 +1,4 @@
-# Professional README.md generator
+# Professional README generator
 ![Github license](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
@@ -19,7 +19,7 @@ A node.js appliation that gathers user input from inquirer to geneerate a profes
 
 ## Installation
 to install dependancies run the follow command
-install inquirer and run node index.js in the termial to start generating
+install inquirer and run node index .js to start generating
 
 ## License
     
@@ -27,7 +27,7 @@ install inquirer and run node index.js in the termial to start generating
 
 ## Useage
 
-the use is to let a user quickly generate a README file
+The use of this project is for a user to be able to quickly generate a readme file for their repository
 
 ## Credits
 

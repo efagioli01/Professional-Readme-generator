@@ -56,8 +56,7 @@ npm install inquirer
 
 
 ## Video of demo 
- 
-
+[![VIDEO OF DEMO](https://img.youtube.com/vi/y7-3ZpsTC40/0.jpg)](https://www.youtube.com/watch?v=y7-3ZpsTC40)
 
 
  ## MIT License
